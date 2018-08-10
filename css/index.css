@@ -554,6 +554,14 @@ a{
     font-size: 20px;
     text-align: center;
 }
+.shangou .right .leftbtn:hover{
+    cursor: pointer;;
+    color: #ff6700;
+}
+.shangou .right .rightbtn:hover{
+    cursor: pointer;;
+    color: #ff6700;
+}
 .shangou .right .rightbtn{
     width: 30px;
     height: 30px;
@@ -1748,6 +1756,12 @@ a .certer{
     font-size: 20px;
     text-align: center;
     cursor: pointer;
+}
+.tuijian .right .leftbtn:hover{
+    color: #ff6700;
+}
+.tuijian .right .rightbtn:hover{
+    color: #ff6700;
 }
 .tuijian .right .rightbtn{
     width: 30px;

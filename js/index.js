@@ -80,7 +80,7 @@ window.onload=function() {
     let zhoubian = document.getElementsByClassName("zhoubian")[0];
     all(zhoubian);
 
-    //正首页导航
+    //正首页导航,下拉导航
     let bigBox1=document.getElementsByClassName("bigBox")[0];
     let logoBox=bigBox1.getElementsByClassName("logoBox")[0];
     let fenlei=document.querySelector(".fenlei");
@@ -291,23 +291,19 @@ window.onload=function() {
     let lson1=Broadcast1.querySelector(".lson");
     let rson1=Broadcast1.querySelector(".rson");
     let btn1=Broadcast1.querySelectorAll(".btn");
-    // let WIdth=parseInt(getComputedStyle(photo1[0],null).width);
     my(photo1,btn1,lson1,rson1);
     let Broadcast2=document.querySelectorAll(".Broadcast")[2];
     let photo2=Broadcast2.querySelectorAll(".box");
     let lson2=Broadcast2.querySelector(".lson");
     let rson2=Broadcast2.querySelector(".rson");
     let btn2=Broadcast2.querySelectorAll(".btn");
-    // let WIDth=parseInt(getComputedStyle(photo2[0],null).width);
     my(photo2,btn2,lson2,rson2);
     let Broadcast3=document.querySelectorAll(".Broadcast")[3];
     let photo3=Broadcast3.querySelectorAll(".box");
     let lson3=Broadcast3.querySelector(".lson");
     let rson3=Broadcast3.querySelector(".rson");
     let btn3=Broadcast3.querySelectorAll(".btn");
-    // let WIdTh=parseInt(getComputedStyle(photo3[0],null).width);
     my(photo3,btn3,lson3,rson3);
-    // console.log(WIdTh,WIDth,WIdTh);
 
     //小米闪购js动态
     let right2=document.querySelector(".shangou .bottom .right");
@@ -321,7 +317,6 @@ window.onload=function() {
             time=1;
         }
         right2.style.transform='translateX('+"-"+kuan*time+'px)';
-        // console.log(right2.style.transform = 'translateX(' + "-" + kuan * time + 'px)');
     }
     leftbtn.onclick=function(){
         time--;
@@ -358,7 +353,7 @@ window.onload=function() {
     //时间
     function hdsz() {
         let nowdate=new Date;
-        let future=new Date(2018,7,2,18);
+        let future=new Date(2018,7,10,18);
         let time=(future-nowdate)/1000;
         let xtime=0;
         let arr=[];
